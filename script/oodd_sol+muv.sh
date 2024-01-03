@@ -1,0 +1,5 @@
+# python main.py -exp_type oodd -DS_pair ogbg-molesol+ogbg-molmuv -batch_size_test 128 -num_epoch 400 -num_cluster 20 -alpha 0.4
+# CUDA_VISIBLE_DEVICES=2 python main.py -DS_pair ogbg-molesol+ogbg-molmuv --exp_type oodd --num_epoch 5000 --type_learner gnn --is_adaptive 1 --alpha 0.4
+
+
+CUDA_VISIBLE_DEVICES=5 python main.py -DS_pair ogbg-molesol+ogbg-molmuv --exp_type oodd --num_epoch 5000 --type_learner gnn --is_adaptive 1 --alpha 0.4

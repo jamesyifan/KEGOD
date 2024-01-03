@@ -1,0 +1,3 @@
+# python main.py -exp_type ad -DS AIDS -num_epoch 400 -num_cluster 3 -alpha 1.0
+# CUDA_VISIBLE_DEVICES=2 python main.py -DS AIDS --exp_type ad --num_epoch 2000 --type_learner gnn --is_adaptive 1 --alpha 0.2
+CUDA_VISIBLE_DEVICES=2 python main.py -DS AIDS --exp_type ad --num_epoch 5000 --type_learner gnn --is_adaptive 1 --alpha 0.2
